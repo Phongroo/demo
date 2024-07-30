@@ -1,0 +1,13 @@
+// 
+// pagination.scss
+//
+
+
+// Pagination rounded (Custom)
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background: linear-gradient(91deg, #1565C0, #1976d2) !important;
+  border: none;
+  height: 100%;
+}

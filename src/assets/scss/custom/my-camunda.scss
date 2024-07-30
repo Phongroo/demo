@@ -1,0 +1,175 @@
+@import "../custom/bpmn/bpmn-codes.scss";
+@import "../custom/bpmn/bpmn-embedded.scss";
+@import "../custom/bpmn/bpmn.scss";
+@import "../custom/bpmn/color-picker.scss";
+@import "../custom/bpmn/diagram-js.scss";
+@import "../custom/bpmn/properties-panel.scss";
+
+.btn-upload-file {
+  padding: 5px 15px 5px 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.panel {
+  background-color: #fafafa;
+  border: solid 1px #ccc;
+  border-radius: 2px;
+  font-family: "Arial", sans-serif;
+  padding: 10px;
+}
+
+.bpmn-icon-task.red {
+  color: #cc0000 !important;
+}
+
+.bpmn-icon-task.yellow {
+  color: #ffc800 !important;
+}
+
+.bpmn-icon-task.green {
+  color: #52b415 !important;
+}
+
+.panel {
+  background-color: #ffffff !important;
+  border: solid 1px #ccc;
+  border-radius: 7px !important;
+  font-family: "Arial", sans-serif;
+  padding: 10px;
+}
+
+#quality-assurance {
+  color: #111;
+  left: 50%;
+  position: absolute;
+  top: 20%;
+  transform: translate(-20%, -350%);
+}
+
+.container-fluid {
+  .canvas {
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    .canvas-inner {
+      width: 100%;
+      height: 700px;
+      position: relative;
+
+      .custom-btn {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        border: 1px solid #ff7e00;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        color: #ff7e00;
+        padding: 6px 7px 5px;
+        text-align: center;
+        -ms-user-select: none;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        transition: all 0.3s ease;
+      }
+      .btn:hover {
+        background: #eef;
+      }
+
+      .zoom-out {
+        right: 338px;
+        top: 50px;
+        z-index: 1;
+      }
+
+      .zoom {
+        top: 15px;
+        right: 338px;
+        z-index: 1;
+      }
+    }
+  }
+
+  &.with-diagram {
+    .canvas,
+    .properties-panel-parent {
+      display: block;
+    }
+  }
+}
+
+.buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  > li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+.properties-panel-parent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 100%;
+  z-index: 10;
+  border-left: 1px solid #ccc;
+  overflow: auto;
+  &:empty {
+    display: none;
+  }
+  > .djs-properties-panel {
+    padding-bottom: 70px;
+    min-height: 100%;
+  }
+}
+
+::ng-deep.djs-palette {
+  &.two-column.open {
+    width: 50px !important;
+    left: 20px !important;
+    display: block !important;
+  }
+  .separator {
+    padding-top: 0 !important;
+    margin: -13px 0 0 0 !important;
+  }
+}
+
+::ng-deep .bjs-container {
+  border: 1px solid #e7eaed;
+  border-radius: 7px;
+}
+
+.highlight:not(.djs-connection) .djs-visual > :nth-child(1) {
+  fill: #3bafda !important; /* color elements as green */
+}
+
+.ls-button-action {
+  width: 100%;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+}
+
+.green {
+  color: #5cb85c;
+}
+.bjs-powered-by {
+  display: none !important;
+}

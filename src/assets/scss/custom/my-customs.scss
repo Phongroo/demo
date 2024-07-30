@@ -1,0 +1,216 @@
+.account-pages {
+    background-image: url("/assets/images/acb_one_pc.png");
+    background-size: 100% 100%;
+    border-top: 2px solid var(--orange);
+}
+.login-form {
+    border: 0;
+    width: 450px;
+    margin: 10% 0% 0 0;
+    background-color: #ffffffb3;
+    -webkit-backdrop-filter: blur(20px) brightness(130%);
+    backdrop-filter: blur(20px) brightness(130%);
+    border-radius: 16px;
+}
+.text-title {
+    text-align: center;
+    color: #005aa3;
+}
+.auth-page-wrapper .auth-page-content {
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+.auth-one-bg {
+    background-image: url("/assets/images/auth-one-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.auth-one-bg .bg-overlay {
+    background: -webkit-gradient(linear,left top,right top,from(#265cdd),to(#1847b9));
+    // background: linear-gradient(to right,#41319c,#4b38b3);
+    // background: linear-gradient(to right, #0d2b73, #214fbd);
+    background: linear-gradient(to right, #002395, #1847b9);
+    opacity: 0.83;
+    // background: linear-gradient(to right, #3256a5, #3256a5);
+    // background: linear-gradient(to right, #0567a4, #1382c9);
+}
+.bg-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    opacity: .7;
+    background-color: #000;
+}
+.card.overflow-hidden {
+    border: unset !important;
+}
+.float-end {
+    float: right!important;
+}
+.auth-bg-cover .footer {
+    color: rgba(255,255,255,.5);
+}
+.auth-page-wrapper .footer {
+    left: 0;
+    background-color: transparent;
+}
+.footer {
+    bottom: 0;
+    padding: 20px calc(1.5rem * .5);
+    position: absolute;
+    right: 0;
+    left: var(--vz-vertical-menu-width);
+    height: 60px;
+    background-color: var(--vz-footer-bg);
+}
+.display-4 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.text-success {
+    color: #45cb85;
+}
+.text-logan {
+    color: #00adee !important;
+}
+.fst-italic {
+    font-style: italic!important;
+    color: white!important;
+}
+.fs-15 {
+    font-size: 15px!important;
+}
+.card {
+    border-radius: 10px;
+}
+.form-control {
+    border-radius: 7px;
+}
+
+.color-theme {
+    color: #0038a8;
+}
+.text-primary {
+    color: #0038a8 !important;
+}
+.navbar-custom {
+    height: 60px !important;
+    background-color: #1348ab !important;
+}
+.logo-box {
+    height: 60px !important;
+    background-color: #002395 !important;
+}
+.logo-sm {
+    -webkit-animation: app-logo-spin infinite 6s linear;
+    animation: app-logo-spin infinite 6s linear;
+}
+@keyframes app-logo-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.enlarged .left-side-menu {
+    background: #1348ab !important;
+}
+.enlarged #sidebar-menu > ul > li > a {
+    color: white;
+}
+.enlarged #sidebar-menu > ul > li > a.active {
+    color: #fd7e14;
+}
+#sidebar-menu .menu-title {
+    background-color: #f1f5f7;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+
+.bs-stepper {
+    width: 100%;
+}
+.active .bs-stepper-label{
+    color: #007bff;
+}
+.bg-step-sucess {
+    background-color: rgb(7 188 12);
+}
+.color-step-sucess {
+    color: #07bc0c;
+}
+.bs-stepper .step-trigger {
+    padding: 7px !important;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+}
+.bs-stepper-circle {
+    width: 1.5em !important;
+    height: 1.5em !important;
+    padding: .25em !important;
+    margin: .25rem !important;
+}
+.bs-stepper-header {
+    background-color: unset;
+    width: 100%;
+    margin-top: 20px;
+}
+.bs-stepper-content {
+    padding: 0 3rem;
+    width: 100%;
+}
+.bs-stepper {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+.image-next-step {
+     width: 15px;
+     float: right;
+     padding-top: 10px;
+ }
+
+ .z-index-14{
+    z-index: 14;
+ }
+
+ .z-index-13{
+    z-index: 13;
+ }
+
+ .z-index-12{
+    z-index: 12;
+ }
+
+ .z-index-11{
+    z-index: 11;
+ }
+
+ .z-index-10{
+    z-index: 10;
+ }
+ .z-index-9{
+    z-index: 9;
+ }
+ .z-index-8{
+    z-index: 8;
+ }
+ .z-index-7{
+    z-index: 7;
+ }
+ .z-index-6{
+    z-index: 6;
+ }
+ .z-index-5{
+    z-index: 5;
+ }
+
+
+ 
